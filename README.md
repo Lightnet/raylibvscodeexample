@@ -35,9 +35,9 @@ lanuch.json
 
 Makefile
 ```
-	ifeq ($(OS),Windows_NT)
-        PLATFORM_OS=WINDOWS
-		export PATH := C:/raylib/mingw/bin:$(PATH)
-    else
+ifeq ($(OS),Windows_NT)
+	PLATFORM_OS=WINDOWS
+	export PATH := C:/raylib/mingw/bin:$(PATH)
+else
 ```
 This is added for mingw32-make to build game.exe
