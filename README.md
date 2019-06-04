@@ -5,7 +5,7 @@
 
 
 # Working Version:
- * Raylab 2.5
+ * raylib 2.5
  * VSCode 1.34.0
 
  # Fixed base on the links ref:
